@@ -1,0 +1,4 @@
+﻿<tr style="{0}">
+<td style="width: 200px; vertical-align: top;">{1}:</td>
+<td style="vertical-align: top">{2}</td>
+</tr>

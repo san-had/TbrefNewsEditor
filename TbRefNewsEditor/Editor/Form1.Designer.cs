@@ -32,7 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtEvents = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNews = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnGenerateScript = new System.Windows.Forms.Button();
             this.txtScript = new System.Windows.Forms.TextBox();
@@ -73,14 +73,14 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Alkalmak:";
             // 
-            // textBox1
+            // txtNews
             // 
-            this.textBox1.Location = new System.Drawing.Point(178, 259);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(517, 274);
-            this.textBox1.TabIndex = 4;
+            this.txtNews.Location = new System.Drawing.Point(178, 259);
+            this.txtNews.Multiline = true;
+            this.txtNews.Name = "txtNews";
+            this.txtNews.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtNews.Size = new System.Drawing.Size(517, 274);
+            this.txtNews.TabIndex = 4;
             // 
             // label3
             // 
@@ -102,6 +102,7 @@
             this.btnGenerateScript.TabIndex = 23;
             this.btnGenerateScript.Text = "Script generál";
             this.btnGenerateScript.UseVisualStyleBackColor = false;
+            this.btnGenerateScript.Click += new System.EventHandler(this.btnGenerateScript_Click);
             // 
             // txtScript
             // 
@@ -121,6 +122,7 @@
             this.btnCopyScript.TabIndex = 25;
             this.btnCopyScript.Text = "Másol";
             this.btnCopyScript.UseVisualStyleBackColor = true;
+            this.btnCopyScript.Click += new System.EventHandler(this.btnCopyScript_Click);
             // 
             // Form1
             // 
@@ -131,7 +133,7 @@
             this.Controls.Add(this.txtScript);
             this.Controls.Add(this.btnGenerateScript);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNews);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtEvents);
             this.Controls.Add(this.label1);
@@ -149,7 +151,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtEvents;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNews;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnGenerateScript;
         private System.Windows.Forms.TextBox txtScript;

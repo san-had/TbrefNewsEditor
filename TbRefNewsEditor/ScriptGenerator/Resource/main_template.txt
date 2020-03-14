@@ -1,0 +1,10 @@
+<p style="text-align: center;">{0}</p>
+<p>Szeretettel köszöntünk a törökbálinti református gyülekezet honlapján!</p>
+<p><img title="Törökbálinti Református Templom" style="float:right;margin:2px" src="images/pictures/reftemplom3.jpg" border="0" alt="Törökbálinti Református Templom" /></p>
+<p>Köszönjük, hogy ellátogattál honlapunkra!</p>
+<h3>Hírek, hírdetések</h3>
+<p>1.) Ha Isten engedi és élünk, jövõ héten (március 9 - 15) a következõ alkalmakat fogjuk megtartani.</p>
+{1}
+<p><strong>Mindenkit szeretettel hívunk alkalmainkra.</strong></p>
+<p> </p>
+{2}
