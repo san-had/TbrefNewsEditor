@@ -1,0 +1,39 @@
+﻿<p style="text-align: center;">"Az Úr védelmez téged, az Úr a te oltalmad jobb kezed felől." Zsoltárok 121, 5</p>
+<p>Szeretettel köszöntünk a törökbálinti református gyülekezet honlapján!</p>
+<p><img title="Törökbálinti Református Templom" style="float:right;margin:2px" src="images/pictures/reftemplom3.jpg" border="0" alt="Törökbálinti Református Templom" /></p>
+<p>Köszönjük, hogy ellátogattál honlapunkra!</p>
+<h3>Hírek, hírdetések</h3>
+<p>1.) Ha Isten engedi és élünk, jövő héten (március 9 - 15) a következő alkalmakat fogjuk megtartani.</p>
+<table width="75%" border="0" cellpadding="10">
+<tbody>
+<tr style="">
+<td style="width: 200px; vertical-align: top;">Csütörtök:</td>
+<td style="vertical-align: top"> 18:00 bibliaóra</td>
+</tr><tr style="background-color:#F6F6F6">
+<td style="width: 200px; vertical-align: top;">Péntek:</td>
+<td style="vertical-align: top"> 17:30 konfirmációs óra</td>
+</tr><tr style="background-color:#F6F6F6">
+<td style="width: 200px; vertical-align: top;">:</td>
+<td style="vertical-align: top">18:45 Kóruspróba</td>
+</tr><tr style="">
+<td style="width: 200px; vertical-align: top;">Vasárnap:</td>
+<td style="vertical-align: top">10:00 istentisztelet,<br />ezzel egyidőben gyermek-istentiszteletet tartunk.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Mindenkit szeretettel hívunk alkalmainkra.</strong></p>
+<p> </p>
+<table width="75%" border="0" cellpadding="10">
+<tbody>
+<tr style="">
+<td style="width: 10px; vertical-align: top;">2.)</td>
+<td>Van lehetőség felnőttkonfirmációi képzésre jelentkezni mindazoknak, akik maguk is szeretnének szövetséget kötni az Úrral. Jelentkezni a lelkészi hivatalban lehet.</td>
+</tr><tr style="background-color:#F6F6F6">
+<td style="width: 10px; vertical-align: top;">3.)</td>
+<td>Emlékeztetjük a kedves testvéreket gyülekezetünk terheire, amelyekhez az egyházfenntartói járulék befizetésével tudnak hozzájárulni (világítás, fűtés, karbantartás...) <br />Az Ige így biztat: „A jókedvű adakozót szereti az Isten!” (2Kor 9,7)</td>
+</tr><tr style="">
+<td style="width: 10px; vertical-align: top;">4.)</td>
+<td>Imádkozzunk azokért, akik terheket hordoznak azzal a reménységgel: „Nagy az ereje az igaz ember buzgó könyörgésének” (Jakab 5,16). Ámen.</td>
+</tr>
+</tbody>
+</table>
