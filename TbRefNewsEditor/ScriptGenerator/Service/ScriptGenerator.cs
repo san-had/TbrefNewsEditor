@@ -34,32 +34,7 @@ namespace ScriptGenerator.Service
 
         private string GenerateEvents(InputDto inputDto, TemplateDto templateDto)
         {
-            string[] WeekDays = { "Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek", "Szombat", "Vasárnap" };
-
-            List<string> rows = new List<string>();
-            rows.AddRange(inputDto.Events.Split(System.Environment.NewLine.ToCharArray()));
-
-            List<EventDto> eventsList = new List<EventDto>();
-            int styleIndex = -1;
-            foreach (var row in rows.Where(r => r != string.Empty))
-            {
-                var rowArray = row.Split(':');
-                var eventDto = new EventDto();
-                eventDto.Day = rowArray[0];
-                if (WeekDays.Contains(eventDto.Day))
-                {
-                    eventDto.Event = $"{rowArray[1]}:{rowArray[2]}";
-                    styleIndex++;
-                    eventDto.StyleIndex = styleIndex;
-                }
-                else
-                {
-                    eventDto.Day = string.Empty;
-                    eventDto.Event = $"{rowArray[0]}:{rowArray[1]}";
-                    eventDto.StyleIndex = styleIndex;
-                }
-                eventsList.Add(eventDto);
-            }
+            var eventsList = PopulateEventList(inputDto.Events);
 
             StringBuilder eventsRowBuilder = new StringBuilder();
 
@@ -77,6 +52,40 @@ namespace ScriptGenerator.Service
             string eventsScript = string.Format(templateDto.EventsTemplate, eventsRowBuilder.ToString());
 
             return eventsScript;
+        }
+
+        private List<EventDto> PopulateEventList(string events)
+        {
+            string[] WeekDays = { "Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek", "Szombat", "Vasárnap" };
+
+            List<string> rows = new List<string>();
+            rows.AddRange(events.Split(System.Environment.NewLine.ToCharArray()));
+
+            List<EventDto> eventsList = new List<EventDto>();
+            int styleIndex = -1;
+            foreach (var row in rows.Where(r => r != string.Empty))
+            {
+                var rowArray = row.Split(':');
+                var eventDto = new EventDto()
+                {
+                    Day = rowArray[0]
+                };
+                if (WeekDays.Contains(eventDto.Day))
+                {
+                    eventDto.Event = $"{rowArray[1]}:{rowArray[2]}";
+                    styleIndex++;
+                    eventDto.StyleIndex = styleIndex;
+                }
+                else
+                {
+                    eventDto.Day = string.Empty;
+                    eventDto.Event = $"{rowArray[0]}:{rowArray[1]}";
+                    eventDto.StyleIndex = styleIndex;
+                }
+                eventsList.Add(eventDto);
+            }
+
+            return eventsList;
         }
 
         private string GenerateNews(InputDto inputDto, TemplateDto templateDto)
