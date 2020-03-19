@@ -4,6 +4,8 @@
     {
         public string VerbScript { get; set; }
 
+        public string WeekRange { get; set; }
+
         public string EventsScript { get; set; }
 
         public string NewsScript { get; set; }

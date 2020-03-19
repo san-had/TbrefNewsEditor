@@ -11,10 +11,12 @@ namespace ScriptGenerator.Service
         private const string oddRowStyle = "background-color:#F6F6F6";
 
         private readonly ITemplateRetriever templateRetriever;
+        private readonly IWeekRangeCalculator weekRangeCalculator;
 
-        public ScriptGenerator(ITemplateRetriever templateRetriever)
+        public ScriptGenerator(ITemplateRetriever templateRetriever, IWeekRangeCalculator weekRangeCalculator)
         {
             this.templateRetriever = templateRetriever;
+            this.weekRangeCalculator = weekRangeCalculator;
         }
 
         public ScriptDto ScriptGeneration(InputDto inputDto)
@@ -22,6 +24,8 @@ namespace ScriptGenerator.Service
             var templateDto = templateRetriever.ReadingTemplates();
 
             var scriptDto = new ScriptDto();
+
+            scriptDto.WeekRange = weekRangeCalculator.CalculateWeekRange();
 
             scriptDto.EventsScript = GenerateEvents(inputDto, templateDto);
 
@@ -116,7 +120,12 @@ namespace ScriptGenerator.Service
 
         private string GenerateMain(InputDto inputDto, TemplateDto templateDto, ScriptDto scriptDto)
         {
-            string mainScript = string.Format(templateDto.MainTemplate, inputDto.Verb, scriptDto.EventsScript, scriptDto.NewsScript);
+            string mainScript = string.Format(
+                templateDto.MainTemplate,
+                inputDto.Verb,
+                scriptDto.WeekRange,
+                scriptDto.EventsScript,
+                scriptDto.NewsScript);
             return mainScript;
         }
     }

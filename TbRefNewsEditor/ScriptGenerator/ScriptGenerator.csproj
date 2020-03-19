@@ -50,10 +50,12 @@
     <Compile Include="Dto\TemplateDto.cs" />
     <Compile Include="Extensibility\IScriptGenerator.cs" />
     <Compile Include="Extensibility\ITemplateRetriever.cs" />
+    <Compile Include="Extensibility\IWeekRangeCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScriptGeneratorNinjectModule.cs" />
     <Compile Include="Service\ScriptGenerator.cs" />
     <Compile Include="Service\TemplateRetriever.cs" />
+    <Compile Include="Service\WeekRangeCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resource\event_row_template.txt">
