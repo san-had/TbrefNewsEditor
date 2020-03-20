@@ -10,6 +10,7 @@ namespace ScriptGenerator
         {
             Bind<ITemplateRetriever>().To<TemplateRetriever>();
             Bind<IScriptGenerator>().To<Service.ScriptGenerator>();
+            Bind<IDateTimeNowProvider>().To<DateTimeNowProvider>();
             Bind<IWeekRangeCalculator>().To<WeekRangeCalculator>();
         }
     }

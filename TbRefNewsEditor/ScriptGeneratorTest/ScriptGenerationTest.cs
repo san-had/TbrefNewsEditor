@@ -1,5 +1,7 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Reflection;
+using Moq;
 using Ninject;
 using NUnit.Framework;
 using ScriptGenerator;
@@ -28,6 +30,10 @@ namespace ScriptGeneratorTest
         public void FullGenerationTest()
         {
             var inputDto = LoadInputs();
+
+            var dateTimeNowProviderMock = new Mock<IDateTimeNowProvider>();
+            dateTimeNowProviderMock.SetupGet(x => x.Now).Returns(new DateTime(2020, 3, 8));
+            kernel.Rebind<IDateTimeNowProvider>().ToConstant(dateTimeNowProviderMock.Object);
 
             var scriptGenerator = kernel.Get<IScriptGenerator>();
 
