@@ -37,6 +37,10 @@
             this.btnGenerateScript = new System.Windows.Forms.Button();
             this.txtScript = new System.Windows.Forms.TextBox();
             this.btnCopyScript = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtYoutube = new System.Windows.Forms.TextBox();
+            this.txtYoutubeText = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtVerb
@@ -124,11 +128,47 @@
             this.btnCopyScript.UseVisualStyleBackColor = true;
             this.btnCopyScript.Click += new System.EventHandler(this.btnCopyScript_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(505, 92);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 13);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Youtube:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(505, 161);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(70, 13);
+            this.label5.TabIndex = 27;
+            this.label5.Text = "Youtube text:";
+            // 
+            // txtYoutube
+            // 
+            this.txtYoutube.Location = new System.Drawing.Point(594, 92);
+            this.txtYoutube.Name = "txtYoutube";
+            this.txtYoutube.Size = new System.Drawing.Size(375, 20);
+            this.txtYoutube.TabIndex = 28;
+            // 
+            // txtYoutubeText
+            // 
+            this.txtYoutubeText.Location = new System.Drawing.Point(594, 158);
+            this.txtYoutubeText.Name = "txtYoutubeText";
+            this.txtYoutubeText.Size = new System.Drawing.Size(375, 20);
+            this.txtYoutubeText.TabIndex = 29;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 777);
+            this.ClientSize = new System.Drawing.Size(1078, 777);
+            this.Controls.Add(this.txtYoutubeText);
+            this.Controls.Add(this.txtYoutube);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnCopyScript);
             this.Controls.Add(this.txtScript);
             this.Controls.Add(this.btnGenerateScript);
@@ -156,6 +196,10 @@
         private System.Windows.Forms.Button btnGenerateScript;
         private System.Windows.Forms.TextBox txtScript;
         private System.Windows.Forms.Button btnCopyScript;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtYoutube;
+        private System.Windows.Forms.TextBox txtYoutubeText;
     }
 }
 

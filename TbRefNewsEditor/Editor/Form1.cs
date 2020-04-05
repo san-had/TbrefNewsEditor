@@ -48,6 +48,8 @@ namespace Editor
             inputDto.Verb = txtVerb.Text;
             inputDto.Events = txtEvents.Text;
             inputDto.News = txtNews.Text;
+            inputDto.Youtube = txtYoutube.Text;
+            inputDto.YoutubeText = txtYoutubeText.Text;
             return inputDto;
         }
 

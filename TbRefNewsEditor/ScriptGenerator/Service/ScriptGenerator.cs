@@ -27,7 +27,7 @@ namespace ScriptGenerator.Service
 
             scriptDto.WeekRange = weekRangeCalculator.CalculateWeekRange();
 
-            scriptDto.EventsScript = GenerateEvents(inputDto, templateDto);
+            //scriptDto.EventsScript = GenerateEvents(inputDto, templateDto);
 
             scriptDto.NewsScript = GenerateNews(inputDto, templateDto);
 
@@ -103,9 +103,9 @@ namespace ScriptGenerator.Service
             int index = 0;
             for (int i = 0; i < rows.Count; i++)
             {
-                index = i + 2;
+                index = i + 1;
                 string style = string.Empty;
-                if (index % 2 == 1)
+                if (index % 2 == 0)
                 {
                     style = oddRowStyle;
                 }
@@ -124,8 +124,10 @@ namespace ScriptGenerator.Service
                 templateDto.MainTemplate,
                 inputDto.Verb,
                 scriptDto.WeekRange,
-                scriptDto.EventsScript,
-                scriptDto.NewsScript);
+                //scriptDto.EventsScript,
+                scriptDto.NewsScript,
+                inputDto.Youtube,
+                inputDto.YoutubeText);
             return mainScript;
         }
     }

@@ -7,5 +7,9 @@
         public string Events { get; set; }
 
         public string News { get; set; }
+
+        public string Youtube { get; set; }
+
+        public string YoutubeText { get; set; }
     }
 }

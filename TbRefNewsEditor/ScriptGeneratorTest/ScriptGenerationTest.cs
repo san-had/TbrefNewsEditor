@@ -32,7 +32,7 @@ namespace ScriptGeneratorTest
             var inputDto = LoadInputs();
 
             var dateTimeNowProviderMock = new Mock<IDateTimeNowProvider>();
-            dateTimeNowProviderMock.SetupGet(x => x.Now).Returns(new DateTime(2020, 3, 8));
+            dateTimeNowProviderMock.SetupGet(x => x.Now).Returns(new DateTime(2020, 4, 5));
             kernel.Rebind<IDateTimeNowProvider>().ToConstant(dateTimeNowProviderMock.Object);
 
             var scriptGenerator = kernel.Get<IScriptGenerator>();
@@ -47,9 +47,11 @@ namespace ScriptGeneratorTest
         private InputDto LoadInputs()
         {
             var inputDto = new InputDto();
-            inputDto.Verb = "\"Az Úr védelmez téged, az Úr a te oltalmad jobb kezed felől.\" Zsoltárok 121, 5";
+            inputDto.Verb = "„Ne félj és ne rettegj, mert veled van Istened, az Úr mindenütt, amerre csak jársz.” Józsué 1,9";
             inputDto.Events = ReadingConstant(ConstEventsFileName);
             inputDto.News = ReadingConstant(ConstNewsFileName);
+            inputDto.Youtube = "https://youtu.be/ZFwxgWDG6jA";
+            inputDto.YoutubeText = "Április 5-i 10:00 órás virágvasárnapi istentisztelet";
             return inputDto;
         }
 

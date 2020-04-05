@@ -1,10 +1,25 @@
+<p> </p>
+<h2><a href="{3}" target="blank">--&gt; {4}</a></h2>
+<p>Korábbi istentiszteletek megtekintése: Fõmenü --&gt; <a href="index.php?option=com_content&amp;view=article&amp;id=120&amp;Itemid=68">Istentiszteletek megtekintése</a><br /> Illetve a fenti menüpont alatt: <a href="index.php?option=com_content&amp;view=article&amp;id=121&amp;Itemid=69">Istentiszteletek megtekintése 2020</a></p>
+<p> </p>
 <p style="text-align: center;">{0}</p>
 <p>Szeretettel köszöntünk a törökbálinti református gyülekezet honlapján!</p>
 <p><img title="Törökbálinti Református Templom" style="float:right;margin:2px" src="images/pictures/reftemplom3.jpg" border="0" alt="Törökbálinti Református Templom" /></p>
 <p>Köszönjük, hogy ellátogattál honlapunkra!</p>
-<h3>Hírek, hírdetések</h3>
-<p>1.) Ha Isten engedi és élünk, jövõ héten ({1}) a következõ alkalmakat fogjuk megtartani.</p>
+<h3>Hírek, hírdetések ({1})</h3>
 {2}
-<p><strong>Mindenkit szeretettel hívunk alkalmainkra.</strong></p>
-<p> </p>
-{3}
+<table border="0" cellpadding="10" width="75%">
+<tbody>
+<tr>
+<td>
+<h3><em>Presbiteri Szövetség üzenete</em></h3>
+<p><em> Ezekben a nehéz idõkben, amikor a személyes találkozásoktól el kell tekintenünk, szeretnénk a Szövetségünk tagjaival való kapcsolatot úgy is ápolni, hogy folyóiratunkat, a PRESBITER-t, feltesszük honlapunkra, így mindenki számára elérhetõvé tesszük a benne megjelenõ tanításokat,  igei üzeneteket, és a közösségünket érintõ információkat.</em></p>
+<p><em> </em></p>
+<p><em>Ide kattintva (vagy a címet egy keresõbe bemásolva) </em><a href="https://presbiteriszovetseg.hu/presbiter-lap-0" target="blank"><em>https://presbiteriszovetseg.hu/presbiter-lap-0</em></a><em> megtalálhatja a 2020/2, illetve az összes korábbi lapszámokat is.</em></p>
+<p><em> </em></p>
+<p><em>A honlapunk még számos további hasznos információt tartalmaz. Lehet, hogy ez a kijárás-böjti idõ ezeknek az olvasmányoknak kínál kedvezõ lehetõséget. Éljünk vele!</em></p>
+<p><em><a href="https://youtu.be/4nV8NakYNfs" target="blank">Mindnyájunknak felemelésére Bach zene!</a><br />Mi is kaptuk és szeretettel továbbítjuk!</em></p>
+</td>
+</tr>
+</tbody>
+</table>
