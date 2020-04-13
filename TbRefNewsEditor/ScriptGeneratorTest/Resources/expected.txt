@@ -7,7 +7,7 @@
 <p><img title="Törökbálinti Református Templom" style="float:right;margin:2px" src="images/pictures/reftemplom3.jpg" border="0" alt="Törökbálinti Református Templom" /></p>
 <p>Köszönjük, hogy ellátogattál honlapunkra!</p>
 <h3>Hírek, hírdetések (április 6 - 12)</h3>
-<table width="75%" border="0" cellpadding="10">
+<table width="68%" border="0" cellpadding="10">
 <tbody>
 <tr style="">
 <td style="width: 10px; vertical-align: top;">1.)</td>

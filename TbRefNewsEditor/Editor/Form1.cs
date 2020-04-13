@@ -10,6 +10,8 @@ namespace Editor
     {
         private const string ConstEventsFileName = "const_events.txt";
         private const string ConstNewsFileName = "const_news.txt";
+        private const string ConstYoutube = "const_youtube.txt";
+        private const string ConstYoutubeText = "const_youtube_text.txt";
 
         private readonly IScriptGenerator scriptGenerator;
 
@@ -26,6 +28,8 @@ namespace Editor
         {
             txtEvents.Text = ReadingConstant(ConstEventsFileName);
             txtNews.Text = ReadingConstant(ConstNewsFileName);
+            txtYoutube.Text = ReadingConstant(ConstYoutube);
+            txtYoutubeText.Text = ReadingConstant(ConstYoutubeText);
         }
 
         private string ReadingConstant(string fileName)

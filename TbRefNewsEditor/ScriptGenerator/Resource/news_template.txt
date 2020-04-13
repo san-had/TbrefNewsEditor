@@ -1,4 +1,4 @@
-<table width="75%" border="0" cellpadding="10">
+<table width="68%" border="0" cellpadding="10">
 <tbody>
 {0}
 </tbody>
