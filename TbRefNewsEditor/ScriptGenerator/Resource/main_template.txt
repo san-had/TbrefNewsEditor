@@ -1,6 +1,6 @@
 <p> </p>
 <h2><a href="{3}" target="blank">--&gt; {4}</a></h2>
-<p>Korábbi istentiszteletek megtekintése: Fõmenü --&gt; <a href="index.php?option=com_content&amp;view=article&amp;id=120&amp;Itemid=68">Istentiszteletek megtekintése</a><br /> Illetve a fenti menüpont alatt: <a href="index.php?option=com_content&amp;view=article&amp;id=121&amp;Itemid=69">Istentiszteletek megtekintése 2020</a></p>
+<p>Korábbi istentiszteletek megtekintése: Fõmenü --&gt; <a href="index.php?option=com_content&amp;view=article&amp;id=120&amp;Itemid=68">Istentiszteletek megtekintése</a><br /> Illetve a fenti menüpont alatt: <a href="index.php?option=com_content&amp;view=article&amp;id=121&amp;Itemid=69">Istentiszteletek megtekintése 2021</a></p>
 <p> </p>
 <p style="text-align: center;">{0}</p>
 <p>Szeretettel köszöntünk a törökbálinti református gyülekezet honlapján!</p>
