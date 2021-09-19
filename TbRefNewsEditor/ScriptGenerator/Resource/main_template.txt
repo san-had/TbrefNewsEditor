@@ -42,3 +42,12 @@ KÉRÜNK MINDENKIT, hogy kövesse a FB oldalunkat <a href="https://www.facebook.
 </tr>
 </tbody>
 </table>
+<table border="0" cellpadding="10" width="75%">
+<tbody>
+<tr>
+<td>
+<p><img title="Csendes nap" border="0" style="float:left;margin:2px" src="images/pictures/csendes_nap.png" alt="Csendes nap" /></p>
+</td>
+</tr>
+</tbody>
+</table>
